@@ -1,40 +1,12 @@
 import os
 
 os.system('cls' if os.name == 'nt' else 'clear')
-import random
-from colored import fg
-import requests
-import sys
-import sys as n
-import time as mm
-import json
-import time
-import json
-import secrets
-from colorama import Fore, init
 
-color3 = fg(2)
-color1 = fg(1)
-color2 = fg(50)
-colooor = fg(1)
-green_color = "\033[1;93m"
-O = '\033[33m'  # orange
-detect_color = "\033[m"
-red_color = "\033[m"
-end_banner_color = "\33[00m"
-C = "\033[0m"
-W = "\033[96m"
-BRed="\033[1;31m"
-Green="\033[0;36m"
-Yellow="\033[0;33m"
-count = 0
-def slow(M):
-    for c in M + '\n':
-        n.stdout.write(c)
-        n.stdout.flush()
-        mm.sleep(1. / 40)
+import requests
+import time
 
 ban = '''
+[!] Follow Me In Instagram : @680068
    _____         _      _                  _____         
   / ____|  /\   | |    | |        /\      / ____|  /\    
  | (___   /  \  | |    | |       /  \    | (___   /  \   
@@ -43,7 +15,7 @@ ban = '''
  |_____/_/    \_\______|______/_/    \_\ |_____/_/    \_\
     
 
-              Coded by | @berlin.py                                    
+              Coded by | @680068                                    
 '''
 
 
@@ -67,11 +39,7 @@ time.sleep(1)
 print(" ")
 
 
-
-slow("- Salla Sa Checker\n")
-slow("- Insta @berlin.py\n")
-slow("- Press Enter To Start ...")
-input("")
+input("- Press Enter To Start ...")
 
 time.sleep(1)
 
@@ -107,8 +75,7 @@ while True:
   rq = requests.get(url, headers=headers)
   if (user == ""):
     print("")
-    slow("- Done, Press Enter To Close Program ...")
-    input("")
+    input("- Done, Press Enter To Close Program ...")
     exit(0)
 
 
